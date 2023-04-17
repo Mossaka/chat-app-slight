@@ -1,0 +1,16 @@
+specversion = "0.2"
+
+[[capability]]
+resource = "http"
+name = "my-rest-api"
+    # This capability does not require any configs
+
+[[capability]]
+resource = "messaging.filesystem"
+name = "my-messaging"
+
+# [[capability]]
+# resource = "messaging.nats"
+# name = "my-messaging"
+#      [capability.configs]
+#      NATS_CREDS = "${azapp.NATS_CREDS_PATH}"
