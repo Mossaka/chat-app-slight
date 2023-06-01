@@ -13,4 +13,4 @@ name = "my-messaging"
 # resource = "messaging.nats"
 # name = "my-messaging"
 #      [capability.configs]
-#      NATS_CREDS = "${azapp.NATS_CREDS_PATH}"
+#      NATS_CREDS = "${azapp.NATS_CREDS}"

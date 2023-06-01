@@ -11,8 +11,8 @@ crate-type = ["cdylib"]
 anyhow = "1"
 wit-bindgen-rust = { git = "https://github.com/bytecodealliance/wit-bindgen", tag = "v0.2.0" }
 wit-error-rs = { git = "https://github.com/danbugs/wit-error-rs", rev = "05362f1a4a3a9dc6a1de39195e06d2d5d6491a5e" }
-slight-http-handler-macro = { git = "https://github.com/deislabs/spiderlightning", branch = "main" }
-slight-http-server-macro = { git = "https://github.com/deislabs/spiderlightning", branch = "main" }
+slight-http-handler-macro = { git = "https://github.com/deislabs/spiderlightning", tag = "v0.5.1" }
+slight-http-server-macro = { git = "https://github.com/deislabs/spiderlightning", tag = "v0.5.1" }
 rand = "0.8"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

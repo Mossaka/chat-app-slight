@@ -10,6 +10,6 @@ To try out the slight chat, you'll need installed:
 - `nats`,
 - `rust`,
 - the appropriate WebAssembly targets, and
-- `slight v0.4.1` itself.
+- `slight v0.5.1` itself.
 
 To run the front-end, do: `make serve` from the root of this repository. Next, run `make run` to start up the back-end.

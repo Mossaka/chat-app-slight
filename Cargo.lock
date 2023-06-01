@@ -602,7 +602,7 @@ dependencies = [
 [[package]]
 name = "slight-http-handler-macro"
 version = "0.1.0"
-source = "git+https://github.com/deislabs/spiderlightning?branch=main#6c214d57bbce8ddd43cbf1c7205ec21a46fdcd17"
+source = "git+https://github.com/deislabs/spiderlightning?tag=v0.5.1#30910b44f7e6305472371a890135ed41daf6df0d"
 dependencies = [
  "anyhow",
  "proc-macro2",
@@ -615,7 +615,7 @@ dependencies = [
 [[package]]
 name = "slight-http-server-macro"
 version = "0.1.0"
-source = "git+https://github.com/deislabs/spiderlightning?branch=main#6c214d57bbce8ddd43cbf1c7205ec21a46fdcd17"
+source = "git+https://github.com/deislabs/spiderlightning?tag=v0.5.1#30910b44f7e6305472371a890135ed41daf6df0d"
 dependencies = [
  "anyhow",
  "proc-macro2",
